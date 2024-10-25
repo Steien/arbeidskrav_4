@@ -1,0 +1,97 @@
+---
+title: "Oppgave 4: Study designs"
+author: "Trond Steien"
+format: 
+  html:
+    code-fold: true
+    code-summary: "Vis kode"
+execute:
+  warning: false
+  message: false
+bibliography: referanser.bib
+editor_options: 
+  chunk_output_type: console
+csl: https://www.zotero.org/styles/apa
+---
+
+
+  Inkluder det brede spørsmålet (Q fra QALMRI)
+    Presenter de spesifikke spørsmålene for hver studie (Q fra QALMRI)
+    Gi en kort oversikt over temaet og dets betydning
+
+# Introduksjon
+
+
+Dette er oppgave 4: "Study designs" i faget IDR4000-1 24H Kvantitativ metode og statistikk. Vi skal velge oss ut 5 forskningartikler og analysere de ved bruk av  QALMRI metoden. Fokus skal være studie design og statistiske modeller eller tester brukt. Avslutningsvis gir jeg en anbefaling om hvordan studier innenfor dette feltet burde settes opp for å svare på lignende spørsmål.
+
+Jeg har valgt å se på "Sammenhengen mellom fysisk aktivitetsnivå og dødelighet fra alle årsaker i befolkningen"
+
+Fysisk aktivitet(FA) er kjent for å ha en rekke helsefordeler, inkludert forbedret kardiovaskulær helse, bedre mental velvære og redusert risiko for kroniske sykdommer[@stensel]. En viktig dimensjon av denne forskningen er hvordan fysisk aktivitetsnivå påvirker dødelighet fra alle årsaker, også kjent som total dødelighet. Dette gir innsikt i hvordan livsstilsintervensjoner kan forbedre folkehelsen[@stensel]. Min interesse i dette temaet er drevet av et ønske om å forstå de nyeste funnene innen dette forskningsfeltet og hvordan de kan styrke vår kunnskap om korrelasjonen mellom fysisk aktivitet og dødelighet.Ved å fokusere på total dødelighet, søker jeg å forstå hvordan fysisk aktivitet påvirker generell dødelighet, uavhengig av spesifikke sykdommer som hjerneinfarkt eller diabetes.
+
+For å identifisere relevante studier, utførte jeg et søk i Medline-databasen med søkestrengen "TI (physical activity or exercise) AND TI all-cause mortality AND TI Population". Jeg valgte å søke i titler for å begrense antall resultater og fokuserte på fagfellevurderte artikler publisert mellom 2019 og 2024. Søkedatoen var 22. oktober 2024, og jeg begrenset språket til engelsk. Dette resulterte i ni treff, hvorav jeg valgte de fem mest relevante basert på egen vurdering.
+
+De fem utvalgte studiene er som følger:
+
+@liang2023 "Joint association of physical activity and sleep duration with risk of all-cause and cause-specific mortality: a population-based cohort study using accelerometry."
+
+@cho2023 "Aerobic, muscle-strengthening, and flexibility physical activity and risks of all-cause and cause-specific mortality: a population-based prospective cohort of Korean adults"
+
+@lee2023 "Associations of Long-Term Physical Activity Trajectories With All-Cause Mortality in a General Population"
+
+@holtermann2021 "The physical activity paradox in cardiovascular disease and all-cause mortality: the contemporary Copenhagen General Population Study with 104 046 adults"
+
+@li2022 "Long-term physical activity participation trajectories were associated with subsequent cognitive decline, risk of dementia and all-cause mortality among adults aged ≥50 years: a population-based cohort study"
+
+# Studie design
+
+
+Felles for alle studiene er at de har brukt prospektive kohort-studiedesign. Dette er en observasjonsstudie-design som måler egenskaper hos hver deltaker som kan forutsi fremtidige utfall, og følger deltakerne med målinger av de relevante utfallene [@hulley]. I dette tilfellet er det primære utfallet dødelighet, mens fysisk aktivitet (FA) er den hovedprediktoren som studeres. En stor fordel med denne type design er at det tillater kalkulering av insidens - antallet nye tilfeller av en tilstand som oppstår over tid [@hulley].
+
+Å måle nivåene av prediktoren (FA) før utfallet (død) skjer, etablerer tidsrekkefølgen for variablene, noe som styrker prosessen med å trekke konklusjoner om årsakssammenhenger. I tillegg vil det prospektive designet forhindre at prediktorene blir påvirket av utfallet, og variablene kan måles mer komplett[@hulley]. Blant studiene vi analyserer, er @liang2023 den eneste som målte FA objektivt med akselerometer over 7 dager, noe som gir mer presise data enn selvrapportering, men er mere kostbart[@hulley]. De andre studiene [@cho2023; @lee2023; @holtermann2021; @li2022] baserte seg på selvrapportert FA. I motsetning vil et retrospektivt kohortestudie som ser på dødlighet, måtte de ha rekonstruere informasjon om de avdøde fra indirekte kilder som medisinske journaler eller slektninger [@hulley]. Dette gjelder både for FA-data, og for all informasjon om den avdøde, noe som kan påvirke nøyaktigheten av dataene.
+
+Dette studiedesignet har samme svakheter som alle andre observasjonsstudier. Det er utfordrende å trekke slutninger om årsakssammenhenger, og tolkningen blir ofte uklar på grunn av påvirkningen fra konfunderende variabler [@hulley]. For studier som ser på FA og dødelighet, kan faktorer som kosthold, sosioøkonomisk status, og generell helsetilstand være viktige konfunderende variabler[@stensel]. En svakhet ved prospektive design er at de kan være kostbare og ineffektive for å studere sjeldne utfall [@hulley]. I konteksten av disse studiene er dødelighet ikke et sjeldent utfall, men snarere et vanlig endepunkt som observeres over tid i store befolkningsgrupper. Dette gjør prospektive kohortstudier godt egnet for å undersøke sammenhengen mellom FA og dødelighet.
+
+Oppfølgingstiden varierer også betydelig mellom studiene, fra 6 år [@li2022] til 16,8 år [@lee2023], noe som kan påvirke styrken av de observerte sammenhengene mellom FA og dødelighet[@hulley]. Utvalgsstørrelsen varierte også betydelig mellom studiene, fra @li2022 med 8,842 deltakere over 50 år i England, til @holtermann2021 som inkluderte hele 104,046 voksne i alderen 20-100 år fra den generelle befolkningen i København.
+
+Studiene representerer en bred geografisk spredning, fra @liang2023 som brukte data fra en stor britisk biobank, @cho2023 som fokuserte på en koreansk voksenpopulasjon, @lee2023 som studerte en taiwansk befolkning, @holtermann2021 som undersøkte innbyggere i København, til @li2022 som analyserte data fra eldre voksne i England. Denne geografiske variasjonen kan påvirke resultatene gjennom forskjeller i livsstil, kosthold, helsetjenester, og kulturelle holdninger til fysisk aktivitet mellom landene. For eksempel kan den urbane befolkningen i København ha andre muligheter for fysisk aktivitet enn den mer varierte populasjonen i den britiske biobankstudien. Videre kan kulturelle forskjeller i arbeids- og fritidsaktiviteter mellom asiatiske og europeiske land påvirke hvordan fysisk aktivitet relaterer seg til helseutfall.
+
+Hver studie fokuserer på spesifikke aspekter ved sammenhengen mellom fysisk aktivitet og dødelighet:
+
+@liang2023: Undersøker sammenhengen mellom akselerometer-målt fysisk aktivitet og søvnvarighet med risiko for dødelighet fra alle årsaker og kardiovaskulære årsaker. Studien inkluderte 92,221 deltakere (gjennomsnittlig alder 62.4 år) og hadde en median oppfølgingstid på 7,0 år.
+
+@cho2023: Fokuserer på effekten av aerob og muskelstyrkende fysisk aktivitet, både separat og kombinert, samt fleksibilitetsøvelser, på risikoen for dødelighet fra alle årsaker. Studien omfattet 34,379 koreanske voksne i alderen 20-79 år.
+
+@lee2023: Analyserer langvarige mønstre av fysisk aktivitet og deres sammenheng med dødelighet fra alle årsaker. Studien inkluderte 21,211 deltakere i alderen 18-90 år, med en median oppfølgingstid på 16.8 år.
+
+@holtermann2021: Utforsker det fysiske aktivitetsparadokset ved å sammenligne effekten av arbeidsrelatert og fritidsrelatert fysisk aktivitet på kardiovaskulær sykdom og allmenn dødelighet. Studien omfattet 104,046 deltakere i alderen 20-100 år, med 10 års oppfølging.
+
+@li2022: Undersøker hvordan langvarig deltakelse i fysisk aktivitet påvirker kognitiv nedgang, risiko for demens, og allmenn dødelighet hos voksne over 50 år. Studien inkluderte 8,842 deltakere og hadde en oppfølgingstid på 6 år.
+
+    Gi en generell innføring i ulike studiedesign, inkludert hvordan de valgte studiene forholder seg til andre design
+    Sammenlign designene brukt i de analyserte studiene
+    Diskuter styrker og svakheter ved de valgte designene (M fra QALMRI)
+
+# Statistiske modeller
+
+
+    Beskriv de statistiske metodene som brukes i studiene
+    Forklar metodene med henvisning til pensum eller annen relevant litteratur
+    Diskuter hvorfor disse metodene er passende for forskningsspørsmålene
+    Hvis mulig, nevn hvilke R-kommandoer som kunne blitt brukt for å gjenskape analysene
+
+
+# Diskusjon:
+
+
+    Oppsummer hovedresultatene fra studiene (R fra QALMRI)
+    Diskuter logikken bak hypotesene og alternative forklaringer (L og A fra QALMRI)
+    Vurder styrker og svakheter ved studiedesignene og de statistiske metodene
+    Kom med egne meninger om studiedesignene og analysene, og foreslå eventuelle forbedringer
+
+
+Konklusjon:
+
+
+    Oppsummer hovedfunnene
+    Diskuter slutninger basert på resultatene (I fra QALMRI)
+    Gi anbefalinger for fremtidig forskning
